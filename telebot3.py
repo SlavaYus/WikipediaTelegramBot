@@ -73,8 +73,6 @@ async def handle_text(message):
     else:
         await bot.send_message(message.chat.id, getwiki(message.text))
         
-
-
 # Запуск процесса поллинга новых апдейтов
 async def main():
     await dp.start_polling(bot)

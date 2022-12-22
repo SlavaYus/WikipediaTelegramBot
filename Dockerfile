@@ -8,8 +8,6 @@ RUN pip install asyncio
 
 RUN pip install	wikipedia
 
-RUN pip install	logging
-
 RUN pip install	re
 
 RUN pip install	datatime

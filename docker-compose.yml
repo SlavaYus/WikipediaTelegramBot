@@ -1,7 +1,7 @@
 version: "10.0"
 services:
   service:
-    image: "my_image:latest"
+    image: "Slava_bot:latest"
     command: "python3 /usr/src/app/main.py"
   shit_box:
     image: "python:3"

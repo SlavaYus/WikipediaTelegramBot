@@ -5,7 +5,7 @@ services:
     command: "python3 /usr/src/app/main.py"
   shit_box:
     image: "python:3"
- networks:
+networks:
    default:
      name: bridge-network
      external: true

@@ -1,2 +1,2 @@
-docker build -t Slava_bot ./
+docker build -t slava_bot ./
 docker compose up -d

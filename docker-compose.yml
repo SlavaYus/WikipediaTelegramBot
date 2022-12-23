@@ -6,6 +6,6 @@ services:
   shit_box:
     image: "python:3"
 networks:
-   default:
-     name: bridge-network
-     external: true
+  default:
+    name: bridge-network
+    external: true

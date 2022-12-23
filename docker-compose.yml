@@ -8,4 +8,4 @@ services:
 networks:
   default:
     name: "bridge-network"
-    external: true
+    external: false

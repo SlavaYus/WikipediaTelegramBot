@@ -7,5 +7,5 @@ services:
     image: "python:3"
 networks:
   default:
-    name: bridge-network
+    name: "bridge-network"
     external: true
